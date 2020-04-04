@@ -21,8 +21,10 @@ python 분석을 통한 신용 연체자 예측
       <li>bill_amt 01~06 : 청구 금액 (달 기준)</li>
       <li>pay_amt_ 01~06 : 과거의 총 지불 금액 (달 기준)</li>
       <li>default payment next month : + 연체 , - 지불 O </li> 
+</ul>
 
-    </ul>
+<img width="1003" alt="스크린샷 2020-04-04 오전 11 35 36" src="https://user-images.githubusercontent.com/62536330/78417039-15f14b00-7669-11ea-95b3-e6dc0cd41939.png">
+
 # 2. 모델링
 
 
