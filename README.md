@@ -1,5 +1,5 @@
 # Making Predictions with Data and Python
-python 분석을 통한 신용 연체자 예측
+3만개의 데이터를 통한 python 신용 연체자 분석 
 
 # 0. 개요
 
