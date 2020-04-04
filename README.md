@@ -11,7 +11,18 @@ python 분석을 통한 신용 연체자 예측
 
 # 1. 데이터 정제  EDA
 
+데이터 수집은 github에서 가져왔으며 대만달러 기준 가상의 데이터를 바탕으로 진행.
+<ul>
+      <li>limit_bal : 개인과 가족들의 신용을 나타내는 변수</li>
+      <li>sex : 성별 (1 = 남자, 2 = 여자)</li>
+      <li>education : 교육 ( 1 = graduate school, 2 = university, 3 = highschool, 4= ohters</li>
+      <li>age : 나이</li>
+      <li>pay_01~06 : 과거의 지불한 금액 (달 기준)</li>
+      <li>bill_amt 01~06 : 청구 금액 (달 기준)</li>
+      <li>pay_amt_ 01~06 : 과거의 총 지불 금액 (달 기준)</li>
+      <li>default payment next month : + 연체 , - 지불 O </li> 
 
+    </ul>
 # 2. 모델링
 
 
