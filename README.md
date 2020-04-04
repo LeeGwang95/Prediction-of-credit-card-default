@@ -23,7 +23,7 @@ python 분석을 통한 신용 연체자 예측
       <li>default payment next month : + 연체 , - 지불 O </li> 
 </ul>
 
-<img width="1003" alt="스크린샷 2020-04-04 오전 11 35 36" src="https://user-images.githubusercontent.com/62536330/78417039-15f14b00-7669-11ea-95b3-e6dc0cd41939.png">
+<img width="1005" alt="스크린샷 2020-04-04 오전 11 36 20" src="https://user-images.githubusercontent.com/62536330/78417042-18ec3b80-7669-11ea-90e1-11bc90377ee5.png">
 
 # 2. 모델링
 
