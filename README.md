@@ -15,7 +15,7 @@ python 분석을 통한 신용 연체자 예측
 <ul>
       <li>limit_bal : 개인과 가족들의 신용을 나타내는 변수</li>
       <li>sex : 성별 (1 = 남자, 2 = 여자)</li>
-      <li>education : 교육 ( 1 = graduate school, 2 = university, 3 = highschool, 4= ohters</li>
+      <li>education : 교육 ( 1 = graduate school, 2 = university, 3 = highschool, 4 = ohters</li>
       <li>age : 나이</li>
       <li>pay_01~06 : 과거의 지불한 금액 (달 기준)</li>
       <li>bill_amt 01~06 : 청구 금액 (달 기준)</li>
@@ -24,6 +24,13 @@ python 분석을 통한 신용 연체자 예측
 </ul>
 
 <img width="1005" alt="스크린샷 2020-04-04 오전 11 36 20" src="https://user-images.githubusercontent.com/62536330/78417042-18ec3b80-7669-11ea-90e1-11bc90377ee5.png">
+
+위의 데이터를 바탕으로 더미변수로 원핫인코딩함
+(범주형 변수를 연속형 변수로 바꿔서 로지스틱회귀를 할 수 있게 함. education을 삭제하고 3가지 col을 int형으로)
++ 교육에 4(others)가 없기에 삭제, 새로운 더미변수로 기존의 edu삭제 ,default.payment.next.month -> default로 1,0을 기준으로 변경
+따라서 다음과 같이 변경 
+
+<img width="1003" alt="스크린샷 2020-04-04 오전 11 35 36" src="https://user-images.githubusercontent.com/62536330/78417039-15f14b00-7669-11ea-95b3-e6dc0cd41939.png">
 
 # 2. 모델링
 
