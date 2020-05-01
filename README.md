@@ -54,9 +54,11 @@ Logisitic 회귀가 가장 우월한 퍼포먼스를 보였기에 채택.
 
 # 5. 참고 
 논문 참조 
+
  금융 빅데이터 개방시스템(CreDB)을 활용한 채무불이행 예측 모형에 관한 연구
 조남용(Jo, Nam. 한국IT서비스학회 학술대회 논문집 Volume: 2019 Issue 2 (2019)
 
 영상 참조 
+
  https://www.youtube.com/watch?v=frM_7UMD_-A&t=483s
 
